@@ -1100,7 +1100,7 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.*",
+            "version": "v10.*",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
@@ -5858,7 +5858,7 @@
                 "php": "^8.0.2"
             },
             "conflict": {
-                "laravel/framework": "<12.*"
+                "laravel/framework": "<10.*"
             },
             "type": "library",
             "extra": {
