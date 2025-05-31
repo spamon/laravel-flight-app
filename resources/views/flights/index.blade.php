@@ -360,7 +360,7 @@
                             $arrivalWeather = $weatherService->getAirportWeather($flight->flight_data['arrival']['iata'] ?? 'LAX');
                         @endphp
 
-                        <!-- Debug Panel - Clean and Simple -->
+                        {{-- <!-- Debug Panel - Clean and Simple -->
                         <div class="mb-4 p-3 bg-blue-500/10 border border-blue-500/20 rounded-lg text-xs">
                             <strong>🔍 Raw API Data:</strong><br>
                             Scheduled Departure: {{ json_encode($scheduledDeparture) }}<br>
@@ -389,7 +389,7 @@
                             <br>
                             Final Status: {{ $status }}<br>
                             Final Alert: {{ $smartAlert }}
-                        </div>
+                        </div> --}}
 
                         <div class="group relative">
                             <!-- Card glow effect -->
