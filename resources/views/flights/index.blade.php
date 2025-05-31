@@ -360,36 +360,6 @@
                             $arrivalWeather = $weatherService->getAirportWeather($flight->flight_data['arrival']['iata'] ?? 'LAX');
                         @endphp
 
-                        {{-- <!-- Debug Panel - Clean and Simple -->
-                        <div class="mb-4 p-3 bg-blue-500/10 border border-blue-500/20 rounded-lg text-xs">
-                            <strong>🔍 Raw API Data:</strong><br>
-                            Scheduled Departure: {{ json_encode($scheduledDeparture) }}<br>
-                            Actual Departure: {{ json_encode($actualDeparture) }}<br>
-                            Scheduled Arrival: {{ json_encode($scheduledArrival) }}<br>
-                            Actual Arrival: {{ json_encode($actualArrival) }}<br>
-                            Estimated Arrival: {{ json_encode($estimatedArrival) }}<br>
-                            Flight Status: {{ json_encode($apiStatus) }}
-                        </div>
-                        
-                        <div class="mb-4 p-3 bg-orange-500/10 border border-orange-500/20 rounded-lg text-xs">
-                            <strong>🛩️ Flight Data Logic:</strong><br>
-                            Has Actual Departure? {{ $hasActualDeparture ? 'YES' : 'NO' }}<br>
-                            Has Actual Arrival? {{ $hasActualArrival ? 'YES' : 'NO' }}<br>
-                            API Status: {{ $apiStatus }}<br>
-                            Logic: 
-                            @if($hasActualArrival)
-                                Has arrival time → LANDED
-                            @elseif($hasActualDeparture)
-                                Has departure time → IN FLIGHT
-                            @elseif($apiStatus === 'active')
-                                API says active → LIKELY IN FLIGHT
-                            @else
-                                No departure data → SCHEDULED
-                            @endif
-                            <br>
-                            Final Status: {{ $status }}<br>
-                            Final Alert: {{ $smartAlert }}
-                        </div> --}}
 
                         <div class="group relative">
                             <!-- Card glow effect -->
