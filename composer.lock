@@ -1100,7 +1100,7 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.0",
+            "version": "v9.52.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
@@ -5858,7 +5858,7 @@
                 "php": "^8.0.2"
             },
             "conflict": {
-                "laravel/framework": "<10.0"
+                "laravel/framework": "<9.52.20"
             },
             "type": "library",
             "extra": {
@@ -5978,7 +5978,7 @@
                 "shasum": ""
             },
             "require": {
-                "illuminate/console": "^9.52.16|^10.0|^11.0|^12.0",
+                "illuminate/console": "^9.52.16|^9.52.20|^11.0|^12.0",
                 "illuminate/contracts": "^9.52.16|^10.0|^11.0|^12.0",
                 "illuminate/support": "^9.52.16|^10.0|^11.0|^12.0",
                 "php": "^8.0",
