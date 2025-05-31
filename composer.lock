@@ -1377,7 +1377,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.3|^8.4"
+                "php": "^7.3|^8.3.14"
             },
             "require-dev": {
                 "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
@@ -2152,7 +2152,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "8.0 - 8.4"
+                "php": "8.0 - 8.3.14"
             },
             "conflict": {
                 "nette/finder": "<3",
